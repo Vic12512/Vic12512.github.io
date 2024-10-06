@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freelancershop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img class="header__logo" src="img/logo.png" alt="logo tipo de frontend store">
+        </a>
+    </header>
+ 
+    <nav class="nav">
+        <a class="nav__link" href="index.html">Tienda</a>
+        <a class="nav__link" href="nosotros.html">Nosotros</a>
+    </nav>
+
+    <main class="contenedor">
+        <h1>ReactJS</h1> 
+        <div class="camiseta">
+           <img class="camiseta__imagen" src="img/1.jpg" alt="camiseta de REACTJS">
+           <div class="camisa__contenido">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tincidunt quis leo vitae consequat. Nunc hendrerit diam lectus, imperdiet</p>
+                <form class="formulario">
+                    <select class="formulario__campo" name="talla" id="talla">
+                        <option disabled selected>Seleciona la talla</option>
+                        <option value="Chica">Chica</option>
+                        <option value="Mediana">Medina</option>
+                        <option value="Grande">Grande</option>
+                    </select>
+                    <input class="formulario__campo" type="number" name="cantidad" id="cantidad" min="0">
+                    <input class="formulario__submit" type="submit" value="agregar al carrito">
+                </form>
+
+           </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__parrafo">front-end-store-todos los derechos reservados</p>
+    </footer>
